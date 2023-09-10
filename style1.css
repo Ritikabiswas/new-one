@@ -1,0 +1,46 @@
+*{margin: 0;
+  padding: 0;
+}
+#navbar{
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: aqua;
+
+
+}
+#logo{
+  margin: 10px;
+  
+}
+#navbar ul{
+  display: flex;
+
+}
+#navbar ul li{
+  list-style: none;
+  font-size: 20px;
+
+}
+#navbar ul li a{
+  text-decoration: none;
+  padding: 3px 22px;
+  display: block;
+
+}
+#navbar ul li a:hover{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://cdn.pixabay.com/photo/2015/07/02/10/22/training-828726_1280.jpg);
+  height: 100vh;
+  padding: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
